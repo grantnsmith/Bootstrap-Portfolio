@@ -1,0 +1,28 @@
+.container {
+    padding: 30px;
+    background-color: #ffffff;
+    border: solid #dddddd;
+    max-width: 960px;
+    margin-top: 50px;
+}
+
+body {
+    background-image: url("subtle_grunge.png");
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+.nav-h1 {
+    padding: 5px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+.nav-link {
+    font-size: x-large
+}
+
+

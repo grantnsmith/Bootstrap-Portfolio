@@ -1,10 +1,11 @@
 .container {
     padding: 30px;
     background-color: #ffffff;
-    border: solid #dddddd;
+    border: solid #571c7e;
     max-width: 960px;
     margin-top: 50px;
 }
+
 
 body {
     background-image: url("subtle_grunge.png");
@@ -12,17 +13,33 @@ body {
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
+    color: #571c7e;
 }
 
 .nav-h1 {
-    padding: 5px;
+    padding: 10px;
     color: #ffffff;
-    background-color: #4aaaa5;
+    background-color: #571c7e;
 }
 
 .nav-link {
     font-size: x-large
 }
+
+.card-text {
+    position: absolute;
+    bottom: 5px;
+    color: #ffffff;
+    padding: 5px;
+    background-color: #571c7e;
+    text-align: center;
+}
+
+/* .card-img-overlay {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+} */
+
 
 

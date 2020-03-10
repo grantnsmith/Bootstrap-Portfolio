@@ -6,7 +6,6 @@
     margin-top: 50px;
 }
 
-
 body {
     background-image: url("subtle_grunge.png");
 }
@@ -26,20 +25,21 @@ h1 {
     font-size: x-large
 }
 
+/* Portfolio page card text */
 .card-text {
     position: absolute;
     bottom: 5px;
     color: #ffffff;
     padding: 5px;
     background-color: #571c7e;
-    text-align: center;
 }
 
-/* .card-img-overlay {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-} */
+/* Contact page Submit button */
+.btn-primary {
+    background-color: #571c7e;
+    border: #571c7e
+}
+
 
 
 

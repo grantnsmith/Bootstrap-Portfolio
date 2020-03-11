@@ -6,23 +6,22 @@
 .main-body-container {
     padding: 30px;
     background-color: #ffffff;
-    border: solid #571c7e;
+    border: solid #644E5B;
     margin-top: 50px;
 }
 
 body {
-    background-image: url("../images/subtle_grunge.png");
+    background-image: url("../images/papyrus-dark.png");
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #571c7e;
+    color: #9E5A63;
 }
 
 .nav-h1 {
     padding: 10px;
     color: #ffffff;
-    background-color: #571c7e;
 }
 
 .nav-link {
@@ -35,13 +34,18 @@ h1 {
     bottom: 5px;
     color: #ffffff;
     padding: 5px;
-    background-color: #571c7e;
+    background-color: #e27d60;
 }
 
 /* Contact page Submit button */
-.btn-primary {
-    background-color: #571c7e;
-    border: #571c7e
+.btn-secondary {
+    background-color: #C96567;
+    border: #c96567;
+}
+
+.card {
+    margin-top: 30px;
+    border: #644E5B;
 }
 
 

@@ -1,13 +1,17 @@
 .container {
+    max-width: 960px;
+    
+}
+
+.main-body-container {
     padding: 30px;
     background-color: #ffffff;
     border: solid #571c7e;
-    max-width: 960px;
     margin-top: 50px;
 }
 
 body {
-    background-image: url("subtle_grunge.png");
+    background-image: url("../images/subtle_grunge.png");
 }
 
 h1 {

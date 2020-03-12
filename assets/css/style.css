@@ -37,12 +37,14 @@ h1 {
     background-color: #e27d60;
 }
 
-/* Contact page Submit button */
+/* Contact page Submit button + Portfolio page buttons */
 .btn-secondary {
     background-color: #C96567;
     border: #c96567;
     
 }
+
+/* Portfolio Buttons */
 
 .portfolio-btn {
     position: absolute;

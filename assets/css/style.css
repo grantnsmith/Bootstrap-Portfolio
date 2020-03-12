@@ -41,6 +41,15 @@ h1 {
 .btn-secondary {
     background-color: #C96567;
     border: #c96567;
+    
+}
+
+.portfolio-btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 5px;
 }
 
 .card {

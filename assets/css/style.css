@@ -5,17 +5,20 @@
 
 .main-body-container {
     padding: 30px;
-    background-color: #ffffff;
-    border: solid #644E5B;
+    background-color: #e0e0e0;
+    border: solid #9E5A63;
     margin-top: 50px;
 }
 
 body {
-    background-image: url("../images/papyrus-dark.png");
+    background-color: #e0e0e0;
+    font-family: 'Lora', serif;
 }
 
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
     color: #9E5A63;
 }
 
@@ -25,6 +28,9 @@ h1 {
 }
 
 .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
     font-size: x-large
 }
 
@@ -47,16 +53,31 @@ h1 {
 /* Portfolio Buttons */
 
 .portfolio-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
     position: absolute;
     left: 0;
     right: 0;
     margin: auto;
-    bottom: 5px;
+    bottom: 5%;
+    padding: 10px;
+}
+
+.contact-btn {
+    margin-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+#contacts {
+    list-style-type: none;
 }
 
 .card {
     margin-top: 30px;
-    border: #644E5B;
+    border: solid #9E5A63;
 }
 
 .gns-nav-align {

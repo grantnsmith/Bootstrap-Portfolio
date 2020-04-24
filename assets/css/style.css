@@ -1,30 +1,83 @@
-.container {
-    max-width: 960px;
-    
+.alignleft {
+    text-align: left;
+}
+
+.main-title {
+    font-size: 12vw;
+    color: #e0e0e0;
+}
+
+.sub-title {
+    font-size: 4.5vw;
+    color: #ab6d76;
+}
+
+.main-content {
+    margin-top: 5vh;
+    max-width: 45%;
+    font-size: 30px;
+    color: #e0e0e0;
+}
+
+.intro-paragraph {
+    margin-left: 2vh;
+
+}
+
+.climbing-paragraph {
+    text-align: right;
+    margin-left: 50%;
+}
+
+.webdev-paragraph {
+    text-align: center;
+    margin: auto;
+    margin-top: 5vh;
+    max-width: 70%;
+    font-size: 30px;
+    color: #e0e0e0;
+}
+
+#profile-photo {
+    margin-top: 5vh;
+    margin-left: 2vh;
+}
+
+#guide-photo {
+    margin-top: 5vh;
+    text-align: center;
+}
+
+#arrow-icon {
+    color: #ab6d76;
+    margin-left: 40%;
+}
+
+#down-arrow-icon {
+    color: #ab6d76;
+    margin-left: 45%;
+    margin-top: 5vh;
 }
 
 .main-body-container {
     padding: 30px;
-    background-color: #e0e0e0;
+    background-color: #314455;
     border: solid #9E5A63;
     margin-top: 50px;
+    border-width: thick;
 }
 
 body {
-    background-color: #e0e0e0;
-    font-family: 'Lora', serif;
+    background-color: #314455;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
-    color: #9E5A63;
-}
-
-.nav-h1 {
-    padding: 10px;
-    color: #ffffff;
+    color: #e0e0e0
+    
 }
 
 .nav-link {
@@ -45,8 +98,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Contact page Submit button + Portfolio page buttons */
 .btn-secondary {
-    background-color: #C96567;
-    border: #c96567;
+    background-color: #ab6d76;
+    border: #ab6d76;
     
 }
 
@@ -62,6 +115,8 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
     bottom: 5%;
     padding: 10px;
+    background-color: #ab6d76;
+    border: #ab6d76;
 }
 
 .contact-btn {
@@ -83,6 +138,8 @@ h1, h2, h3, h4, h5, h6 {
 .gns-nav-align {
     text-align: right;
 }
+
+
 
 
 

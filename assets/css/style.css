@@ -7,7 +7,13 @@
     color: #e0e0e0;
 }
 
+.portfolio-title {
+    font-size: 12vw;
+    color: #e0e0e0;
+}
+
 .sub-title {
+    margin-left: 2vh;
     font-size: 4.5vw;
     color: #ab6d76;
 }
@@ -103,11 +109,16 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 
+.portfolio-div {
+    margin: auto;
+}
+
 /* Portfolio Buttons */
 
 .portfolio-btn {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    font-size: xx-large;
     text-transform: uppercase;
     position: absolute;
     left: 0;
@@ -123,10 +134,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 2%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    font-size: x-large;
     text-transform: uppercase;
 }
 
-#contacts {
+.contacts {
     list-style-type: none;
 }
 

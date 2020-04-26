@@ -13,4 +13,4 @@
 * Google Fonts
 
 ## Portfolio Page in Action
-* ![](./assets/gnsmith-portfolio.gif)
+![](./assets/gnsmith-portfolio.gif)

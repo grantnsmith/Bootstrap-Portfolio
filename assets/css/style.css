@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 .portfolio-btn {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: xx-large;
+    font-size: x-large;
     text-transform: uppercase;
     position: absolute;
     left: 0;
@@ -150,6 +150,23 @@ h1, h2, h3, h4, h5, h6 {
 .gns-nav-align {
     text-align: right;
 }
+
+@media screen and (max-width: 767px) {
+
+.main-title {
+    font-size: 24vw;
+
+    }
+.main-content, .webdev-paragraph {
+    max-width: 100%;
+}
+.climbing-paragraph {
+    margin: auto;
+
+}
+
+}
+
 
 
 

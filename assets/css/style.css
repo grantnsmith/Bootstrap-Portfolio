@@ -1,3 +1,7 @@
+a {
+    color: #e0e0e0;
+}
+
 .alignleft {
     text-align: left;
 }
@@ -8,13 +12,19 @@
 }
 
 .portfolio-title {
-    font-size: 12vw;
+    margin-left: 1vh;
+    font-size: 7vw;
+    color: #e0e0e0;
+}
+
+.contacts-title {
+    font-size: 8vw;
     color: #e0e0e0;
 }
 
 .sub-title {
-    margin-left: 2vh;
-    font-size: 4.5vw;
+    margin-left: 1vh;
+    font-size: 4vw;
     color: #ab6d76;
 }
 
@@ -68,7 +78,7 @@
 .main-body-container {
     padding: 30px;
     background-color: #314455;
-    border: solid #9E5A63;
+    border: solid #ab6d76;
     margin-top: 50px;
     border-width: thick;
 }
@@ -80,7 +90,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     text-transform: uppercase;
     color: #e0e0e0
     
@@ -124,17 +134,18 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     right: 0;
     margin: auto;
-    bottom: 5%;
+    bottom: 0%;
     padding: 10px;
     background-color: #ab6d76;
     border: #ab6d76;
+    border-radius: 0;
 }
 
 .contact-btn {
     margin-top: 2%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: x-large;
+    font-size: large;
     text-transform: uppercase;
 }
 
@@ -144,11 +155,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .card {
     margin-top: 30px;
-    border: solid #9E5A63;
+    border: solid #ab6d76;
 }
 
 .gns-nav-align {
     text-align: right;
+}
+
+.collapse-card {
+    background-color: #ab6d76;
+    color: #e0e0e0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: large;
+    
+}
+
+.collapse-card a {
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 767px) {
@@ -162,9 +187,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .climbing-paragraph {
     margin: auto;
-
 }
 
+.contact-btn {
+    font-size: medium;
+}
+ 
 }
 
 

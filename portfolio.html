@@ -9,12 +9,12 @@
     crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet"><body>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 </head>
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #314455;">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler pull-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -36,50 +36,209 @@
       <!-- Portfolio Section -->
       <div>
         <h1 class="alignleft portfolio-title">Portfolio</h1>
-        <h2 class="alignleft sub-title">View some of my recent projects</h2>
+        <h2 class="alignleft sub-title">View my projects</h2>
         <div class="row portfolio-div">
-          <div class="col-lg-5 col-md-6 offset-md-1">
+          <div class="col-lg-5 col-md-6 offset-md-1 animate__animated animate__fadeInLeft">
             <div class="card text-center">
-              <img src="assets/images/burger-logger.png" class="card-img" alt="...">
-                  <a href="https://fast-hollows-38522.herokuapp.com/" target="_blank" class="btn btn-secondary portfolio-btn">Burger Logger</a>
+              <img src="assets/images/uplift.png" class="portfolio-card-img card-img rounded-0" alt="...">
+                  <a href="#upliftCollapse" role="button" aria-expanded="false" aria-controls="collapseExample" target="_blank" class="btn btn-secondary portfolio-btn" data-toggle="collapse">Uplift</a>
+            </div>
+            <div class="collapse" id="upliftCollapse">
+              <div class="card card-body collapse-card">
+                <p>Uplift is a resource for allies of the black community who are looking to support black-owned businesses.</p>
+                <br>
+                <a href="https://project-uplift.herokuapp.com/" target= "_blank"><i class="far fa-arrow-alt-circle-right"></i> Check out the website.</a>
+                <a href="hhttps://github.com/grantnsmith/project-2" target= "_blank"><i class="far fa-arrow-alt-circle-right"></i> Check out the code on Github.</a>
+                <br>
+                <p text-decoration="underlined">Technologies Used</p>
+                <ul>
+                  <li>Jquery</li>
+                  <li>Bootstrap</li>
+                  <li>Node.js</li>
+                  <li>MySQL Database (JawsDB)</li>
+                  <li>Travis CI</li>
+                  <li>ES Lint</li>
+                  <li>SociableKit</li>
+                  <li>Puppeteer</li>
+                  <li>Passport Authentication</li>
+                  <li>Handlebars Templating</li>
+                  <li>Deployed on Heroku</li>
+                </ul>              
+              </div>
             </div>
           </div>
-          <div class="col-lg-5 col-md-6">
+          <div class="col-lg-5 col-md-6  animate__animated animate__fadeInRight">
             <div class="card text-center">
-              <img src="assets/images/note-taker.png" target="_blank" class="card-img-top" alt="...">
-                <a href="https://intense-reef-49057.herokuapp.com/" class="btn btn-secondary portfolio-btn">Note Taker</a>
+              <img src="assets/images/mysql-cm.png" target="_blank" class="portfolio-card-img card-img rounded-0" alt="...">
+                <a href="#employeeTrackerCollapse" role="button" aria-expanded="false" aria-controls="collapseExample" class="btn btn-secondary portfolio-btn" data-toggle="collapse">CLI Employee Tracker</a>
+            </div>
+            <div class="collapse" id="employeeTrackerCollapse">
+              <div class="card card-body collapse-card">
+                <p>A command line employee management system, built using Node.js and Inquirer, and connected to a MySQL database.</p>
+                <br>
+                <a href="https://github.com/grantnsmith/mysql-employee-tracker" target= "_blank"><i class="far fa-arrow-alt-circle-right"></i> Check out the code on Github.</a>
+                <br>
+                <p text-decoration="underlined">Technologies Used</p>
+                <ul>
+                  <li>Javascript</li>
+                  <li>Node.js</li>
+                  <li>MySQL</li>
+                  <li>Inquirer</li>
+                  <li>dotenv</li>
+                  <li>console.table</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row portfolio-div">
+          <div class="col-lg-5 col-md-6 offset-md-1 animate__animated animate__fadeInUp">
+            <div class="card text-center">
+              <img src="assets/images/burger-logger.png" class="portfolio-card-img card-img rounded-0" alt="...">
+              <a href="#burgerCollapse" role="button" aria-expanded="false" aria-controls="collapseExample" target="_blank" class="btn btn-secondary portfolio-btn" data-toggle="collapse">Burger Logger</a>
+            </div>
+            <div class="collapse" id="burgerCollapse">
+              <div class="card card-body collapse-card">
+                <p>An application following the MVC design pattern and utilizing MySQL, Node, Express, Handlebars and an ORM built from scratch.</p>
+                <br>
+                <a href="https://fast-hollows-38522.herokuapp.com/" target= "_blank"><i class="far fa-arrow-alt-circle-right"></i> Check out the website.</a>
+                <a href="https://github.com/grantnsmith/burger-logger" target= "_blank"><i class="far fa-arrow-alt-circle-right"></i> Check out the code on Github.</a>
+                <br>
+                <p text-decoration="underlined">Technologies Used</p>
+                <ul>
+                  <li>Javascript</li>
+                  <li>Jquery</li>
+                  <li>Node.js</li>
+                  <li>Express.js</li>
+                  <li>MySQL</li>
+                  <li>Homemade ORM</li>
+                  <li>Handlebars Templating</li>
+                </ul>                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6  animate__animated animate__fadeInUp">
+            <div class="card text-center">
+              <img src="assets/images/note-taker.png" target="_blank" class="portfolio-card-img card-img rounded-0" alt="...">
+              <a href="#noteCollapse" role="button" aria-expanded="false" aria-controls="collapseExample" target="_blank" class="btn btn-secondary portfolio-btn" data-toggle="collapse">Note Taker</a>
+            </div>
+            <div class="collapse" id="noteCollapse">
+              <div class="card card-body collapse-card">
+                <p>A note taking application built with an express backend and deployed on Heroku.
+                </p>
+                <br>
+                <a href="https://intense-reef-49057.herokuapp.com/" target= "_blank"><i class="far fa-arrow-alt-circle-right"></i> Check out the deployed application.</a>
+                <a href="https://github.com/grantnsmith/express-note-taker" target= "_blank"><i class="far fa-arrow-alt-circle-right"></i> Check out the code on Github.</a>
+                <br>
+                <p text-decoration="underlined">Technologies Used</p>
+                <ul>
+                  <li>Jquery</li>
+                  <li>Bootstrap</li>
+                  <li>Font Awesome</li>
+                  <li>Express.js</li>
+                  <li>Node.js</li>
+                  <li>Deployed on Heroku</li>
+                </ul>                
+              </div>
             </div>
           </div>
         </div>
       <div class="row portfolio-div">
         <div class="col-lg-5 col-md-6 offset-md-1">
           <div class="card text-center">
-            <img src="assets/images/corona-connoisseur.png" class="card-img" alt="...">
-                <a href="https://grantnsmith.github.io/corona-connoisseur/" target="_blank" class="btn btn-secondary portfolio-btn">Corona Connoisseur</a>
+            <img src="assets/images/corona-connoisseur.png" class="portfolio-card-img card-img rounded-0" alt="...">
+            <a href="#coronaCollapse" role="button" aria-expanded="false" aria-controls="collapseExample" target="_blank" class="btn btn-secondary portfolio-btn" data-toggle="collapse">Corona Connoisseur</a>
+          </div>
+          <div class="collapse" id="coronaCollapse">
+            <div class="card card-body collapse-card">
+              <p>Corona Connoisseur allows users to search for local restaurants that are open right now and that offer either takeout or delivery.</p>
+              <br>
+              <a href="https://grantnsmith.github.io/corona-connoisseur/" target= "_blank"><i class="far fa-arrow-alt-circle-right"></i> Check out the website.</a>
+              <a href="https://github.com/grantnsmith/corona-connoisseur" target= "_blank"><i class="far fa-arrow-alt-circle-right"></i> Check out the code on Github.</a>
+              <br>
+              <p text-decoration="underlined">Technologies Used</p>
+              <ul>
+                <li>Javascript & Jquery</li>
+                <li>HTML & CSS</li>
+                <li>Materialize CSS Framework</li>
+                <li>Font Awesome</li>
+                <li>Google Places API</li>
+                <li>OpenCage Data API</li>
+              </ul>              
+            </div>
           </div>
         </div>
         <div class="col-lg-5 col-md-6">
           <div class="card text-center">
-            <img src="assets/images/workday-calendar.png" target="_blank" class="card-img-top" alt="...">
-              <a href="https://grantnsmith.github.io/work_day_calendar/" class="btn btn-secondary portfolio-btn">Work Day Calendar</a>
+            <img src="assets/images/workday-calendar.png" target="_blank" class="portfolio-card-img card-img rounded-0" alt="...">
+            <a href="#calendarCollapse" role="button" aria-expanded="false" aria-controls="collapseExample" target="_blank" class="btn btn-secondary portfolio-btn" data-toggle="collapse">Work Day Calendar</a>
+          </div>
+          <div class="collapse" id="calendarCollapse">
+            <div class="card card-body collapse-card">
+              <p>A work-day planner built with jQuery using Bootstrap CSS Framework and moment.js</p>
+              <br>
+              <a href="https://grantnsmith.github.io/work_day_calendar/" target= "_blank"><i class="far fa-arrow-alt-circle-right"></i> Check out the website.</a>
+              <a href="https://github.com/grantnsmith/work_day_calendar" target= "_blank"><i class="far fa-arrow-alt-circle-right"></i> Check out the code on Github.</a>
+              <br>
+              <p text-decoration="underlined">Technologies Used</p>
+              <ul>
+                <li>Jquery</li>
+                <li>Bootstrap</li>
+                <li>HTML & CSS</li>
+                <li>Javascript</li>
+                <li>Moment.js</li>
+              </ul>              
+            </div>
           </div>
         </div>
       </div>
       <div class="row portfolio-div">
         <div class="col-lg-5 col-md-6 offset-md-1">
           <div class="card text-center">
-            <img src="assets/images/javascript-quiz.png" class="card-img-top" alt="...">
-              <a href="https://grantnsmith.github.io/code_quiz/" target="_blank" class="btn btn-secondary portfolio-btn">Javascript Code Quiz</a>
+            <img src="assets/images/javascript-quiz.png" class="portfolio-card-img card-img rounded-0" alt="...">
+            <a href="#codeQuizCollapse" role="button" aria-expanded="false" aria-controls="collapseExample" target="_blank" class="btn btn-secondary portfolio-btn" data-toggle="collapse">Javascript Code Quiz</a>
+          </div>
+          <div class="collapse" id="codeQuizCollapse">
+            <div class="card card-body collapse-card">
+              <p>A quiz about Javascript, built with Javascript. I use the Bootstrap CSS framework for the styling.</p>
+              <br>
+              <a href="https://grantnsmith.github.io/code_quiz/" target= "_blank"><i class="far fa-arrow-alt-circle-right"></i> Check out the website.</a>
+              <a href="https://github.com/grantnsmith/code_quiz" target= "_blank"><i class="far fa-arrow-alt-circle-right"></i> Check out the code on Github.</a>
+              <br>
+              <p text-decoration="underlined">Technologies Used</p>
+              <ul>
+                <li>Javascript</li>
+                <li>Bootstrap CSS Framework</li>
+                <li>HTML & CSS</li>
+              </ul>              
+            </div>
           </div>
         </div>
       <div class="col-lg-5 col-md-6">
           <div class="card text-center">
-            <img src="assets/images/weather-dashboard.png" class="card-img-top" alt="...">
-              <a href="https://grantnsmith.github.io/weather_dashboard/" target="_blank" class="btn btn-secondary portfolio-btn">Weather Dashboard</a>
+            <img src="assets/images/weather-dashboard.png" class="portfolio-card-img card-img rounded-0" alt="...">
+            <a href="#weatherCollapse" role="button" aria-expanded="false" aria-controls="collapseExample" target="_blank" class="btn btn-secondary portfolio-btn" data-toggle="collapse">Weather Dashboard</a>
+          </div>
+          <div class="collapse" id="weatherCollapse">
+            <div class="card card-body collapse-card">
+              <p>This weather dashboard connects to the OpenWeather API to search a city and get the current weather and the 5-day forecast</p>
+              <br>
+              <a href="https://grantnsmith.github.io/weather_dashboard/" target= "_blank"><i class="far fa-arrow-alt-circle-right"></i> Check out the website.</a>
+              <a href="https://github.com/grantnsmith/weather_dashboard" target= "_blank"><i class="far fa-arrow-alt-circle-right"></i> Check out the code on Github.</a>
+              <br>
+              <p text-decoration="underlined">Technologies Used</p>
+              <ul>
+                <li>Jquery</li>
+                <li>Materialize CSS Framework</li>
+                <li>OpenWeather API</li>
+                <li>Moment.js</li>
+                <li>Travis CI</li>
+                <li>Google Fonts API</li>
+              </ul>              
+            </div>
           </div>
         </div>
         </div>
-      </div>
       </div>
       <!-- End Portfolio Section -->
 
@@ -87,23 +246,19 @@
       <div class="footer">
         <hr class="my-4">
         <div>
+          <h2 class="alignleft sub-title">Learn more about me:</h2>
           <ul class="contacts">
             <li><a href="contact.html" class="btn btn-secondary contact-btn" >Contact Me</a></li>
-          </ul>
-        </div>
-        <h2 class="alignleft sub-title">Or check out my:</h2>
-        <div>
-          <ul class="contacts">
-            <li><a href="https://github.com/grantnsmith" target="_blank" class="btn btn-secondary contact-btn">GitHub Repository</a></li>
-            <li><a href="https://www.linkedin.com/in/grantnsmith/" target="_blank" class="btn btn-secondary contact-btn">LinkedIn Profile</a></li>
-            <li><a href="assets/Resume_Grant_Smith (4_2020).pdf" target="_blank" class="btn btn-secondary contact-btn">Resume</a></li>          
+            <li><a href="https://github.com/grantnsmith" target="_blank" class="btn btn-secondary contact-btn"><i class="fab fa-github-square"></i>   GitHub Repository</a></li>
+            <li><a href="https://www.linkedin.com/in/grantnsmith/" target="_blank" class="btn btn-secondary contact-btn"><i class="fab fa-linkedin"></i>   LinkedIn Profile</a></li>
+            <li><a href="assets/Resume_Grant_Smith (4_2020).pdf" target="_blank" class="btn btn-secondary contact-btn"><i class="far fa-file"></i>   Resume</a></li>          
           </ul>
         </div> 
       </div>
 
       <!-- End Footer -->
       
-
+      <script src="https://kit.fontawesome.com/f8378d18e1.js" crossorigin="anonymous"></script>
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>

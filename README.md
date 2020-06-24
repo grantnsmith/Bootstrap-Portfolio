@@ -7,7 +7,7 @@
 * GitHub Repository: https://github.com/grantnsmith
 
 ## Portfolio Page in Action
-![](./assets/gnsmith-portfolio.gif)
+![](./assets/portfolio.gif)
 
 ## Technologies Used in Portfolio Page
 * HTML and CSS

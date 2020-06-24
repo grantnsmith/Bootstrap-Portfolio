@@ -1,5 +1,5 @@
 # GRANT SMITH PORTFOLIO
-* A portfolio of my web-development work with links to my projects, resume, LinkedIn, Github and contact information. 
+* A portfolio highlighting my past experience and my web-development work. You'll find links to my web-dev projects, resume, LinkedIn, Github and contact information. 
 
 ## Important Links:
 * Deployed Portfolio: https://grantnsmith.github.io/Portfolio/
@@ -20,3 +20,6 @@
 ## Future Development/Bugs
 * Increase mobile responsiveness on all pages
 * More interactive pieces throughout
+
+## Contact Information
+* Email me at grantnsmith@gmail.com

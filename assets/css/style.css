@@ -2,13 +2,54 @@ a {
     color: #e0e0e0;
 }
 
+.jumbotron {
+    background-image: images("assets/images/guide-photo.JPG") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    padding-top: 12%;
+    padding-bottom: 25%;
+}
+
 .alignleft {
     text-align: left;
 }
 
 .main-title {
-    font-size: 12vw;
+    font-size: 5.5vw;
     color: #e0e0e0;
+}
+
+.resume-header {
+    margin-top: 5vh ;
+    font-size: xx-large;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.resume-arrow {
+    color: #ab6d76;
+}
+
+.resume-block {
+    margin-top: 10vh;
+}
+
+.resume-title {
+    font-size: x-large;
+}
+
+.resume-subtitle {
+    color: #ab6d76;
+    font-size: larger;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.resume-text-body {
+    color: #e0e0e0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
 }
 
 .portfolio-title {
@@ -22,10 +63,21 @@ a {
     color: #e0e0e0;
 }
 
-.sub-title {
-    margin-left: 1vh;
-    font-size: 4vw;
+.portfolio-sub-title {
+    margin-left: 2vh;
+    font-size: 2vw;
     color: #ab6d76;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.jumbotron-sub-title {
+    font-size: 2vw;
+    color: #e0e0e0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
 }
 
 .main-content {
@@ -113,11 +165,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Contact page Submit button + Portfolio page buttons */
-.btn-secondary {
-    background-color: #ab6d76;
-    border: #ab6d76;
+/* .btn-secondary {
+    background-color: #314455;
+    border: solid #ab6d76;
     
-}
+} */
 
 .portfolio-div {
     margin: auto;
@@ -136,8 +188,8 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
     bottom: 0%;
     padding: 10px;
-    background-color: #ab6d76;
-    border: #ab6d76;
+    background-color: #314455;
+    border-top: solid #ab6d76;
     border-radius: 0;
 }
 
@@ -147,6 +199,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     font-size: large;
     text-transform: uppercase;
+    background-color: #314455;
+    border: solid #ab6d76;
 }
 
 .contacts {
@@ -163,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .collapse-card {
-    background-color: #ab6d76;
+    background-color: #314455;
     color: #e0e0e0;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;

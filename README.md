@@ -12,10 +12,11 @@
 ## Technologies Used in Portfolio Page
 * HTML and CSS
 * Bootstrap
+* Jquery
 * Font Awesome
 * Google Fonts
+* Animate.css
 
 ## Future Development/Bugs
-* Increase mobile responsiveness on homepage
+* Increase mobile responsiveness on all pages
 * More interactive pieces throughout
-* Add graphic animation to homepage div upon load
